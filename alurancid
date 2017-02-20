@@ -321,6 +321,7 @@ sub DoNothing {print STDOUT;}
 # Main
 @commandtable = (
        {'show card'                            => 'ShowHw'},
+       {'show mda'                             => 'ShowHw'},
        {'show card detail'                     => 'ShowHw'},
        {'show chassis environment'             => 'ShowHw'},
        {'show chassis power-supply'            => 'ShowPwr'},
